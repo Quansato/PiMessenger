@@ -1,0 +1,10 @@
+@import "../../../../assets/scss/color";
+@import "../../../../assets/scss/icons";
+
+:host{
+    .wrap{
+        width: 56px;
+        background-color: $color-white;
+        height: 100%;
+    }
+}

@@ -1,0 +1,14 @@
+.ic-chat-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -352px -192px;
+    cursor: pointer;
+  }
+}
