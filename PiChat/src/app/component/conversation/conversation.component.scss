@@ -1,0 +1,21 @@
+@import "../../../assets/scss/color";
+@import "../../../assets/scss/icons";
+
+:host{
+    .body{
+        .user-list{
+            width: 25%;
+            height: 100%;
+        }
+        .chat-body{
+            width: 50%;
+            height: 100%;
+            background-color: $color-grey;
+            border-radius: 5px;
+        }
+        .chat-info{
+            width: 25%;
+            height: 100%;
+        }
+    }
+}
