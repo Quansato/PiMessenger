@@ -2,8 +2,75 @@
 @import "../../../../assets/scss/icons";
 
 :host{
+    padding-left: 16px;
+    padding-right: 16px;
     .title{
         height: 56px;
         text-align: center;
+        line-height: 56px;
+    }
+    .header{
+        .ic-previous-16{
+            background-color: $color-grey;
+            padding: 6px 7px 7px 6px;
+            border-radius: 10px;
+            margin-right: 8px;
+        }
+        border-bottom: 1px solid $color-grey1;
+    }
+    .avt{
+        img{
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            border: 1px solid $color-grey;
+            margin: 8px;
+        }
+        .status{
+            background-color: $color-grey1;
+            padding: 4px;
+            border-radius: 10px;
+            height: 16px;
+            line-height: 16px;
+        }
+    }
+    .search{
+        position: relative;
+        width: 100%;
+        padding: 16px;
+        input{
+            width: 90%;
+            outline: none;
+            border: 1px solid $color-grey;
+            padding: 8px;
+            border-radius: 8px;
+        }
+        .ic-search-16{
+            position: absolute;
+            right: calc(10% + 8px);
+            top: calc(50% - 8px);
+        }
+    }
+    .last-chat{
+        .title{
+            .icon{
+                .ic-plus-16{
+                    background-color: $color-grey;
+                }
+            }
+        }
+        .info-chat{
+            .avatar{
+                img{
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    border: 1px solid $color-grey;
+                }
+                margin-right: 16px;
+            }
+            margin-top: 8px;
+            margin-bottom: 16px;
+        }
     }
 }
