@@ -12,3 +12,129 @@
     cursor: pointer;
   }
 }
+.ic-previous-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -16px -32px;
+    cursor: pointer;
+  }
+}
+.ic-next-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat 0px -32px;
+    cursor: pointer;
+  }
+}
+.ic-dropdown-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -48px -32px;
+    cursor: pointer;
+  }
+}
+.ic-search-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -32px 0px;
+    cursor: pointer;
+  }
+}
+.ic-smile-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -80px -144px;
+    cursor: pointer;
+  }
+}
+.ic-attach-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -176px -16px;
+    cursor: pointer;
+  }
+}
+.ic-setting-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -16px 0px;
+    cursor: pointer;
+  }
+}
+.ic-plus-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+}
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -32px -16px;
+    cursor: pointer;
+  }
+.ic-more-16 {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  cursor: pointer;
+  &::before {
+    content: "";
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: transparent url("../icon/icon_collection.svg") no-repeat -48px 0px;
+    cursor: pointer;
+  }
+}

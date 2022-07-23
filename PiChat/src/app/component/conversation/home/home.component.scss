@@ -1,0 +1,18 @@
+@import "../../../../assets/scss/color";
+@import "../../../../assets/scss/icons";
+
+:host{
+    width: calc(100% - 56px);
+    app-users{
+        width: 20%;
+    }
+    app-messages{
+        width: 60%;
+    }
+    app-info-message{
+        width: 20%;
+    }
+    .body{
+        height: 100%;
+    }
+}
