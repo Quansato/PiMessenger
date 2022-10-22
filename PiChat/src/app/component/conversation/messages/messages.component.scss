@@ -4,4 +4,45 @@
 :host{
     background-color: $color-grey1;
     border-radius: 20px;
+    .messages{
+        height: 100vh;
+        position: relative;
+    }
+    .title{
+        border-bottom: 1px solid $color-grey1;
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+    .info{
+        height: 100%;
+        .content{
+            .partner{
+                img{
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 50%;
+                    border: 1px solid $color-grey;
+                    margin: 8px;
+                }
+            }
+        }
+        .type-message{
+            position: absolute;
+            bottom: 10%;
+            width: 100%;
+            input{
+                outline: none;
+                width: 90%;
+                border: none;
+                padding: 16px;
+                border-radius: 5px;
+            }
+            .ic-search-16{
+                position: absolute;
+                right: calc(6%);
+                top: calc(50% - 8px);
+            }
+        }
+    }
 }
