@@ -38,10 +38,19 @@
                 padding: 16px;
                 border-radius: 5px;
             }
-            .ic-search-16{
+            .ic-send-white-16{
                 position: absolute;
                 right: calc(6%);
                 top: calc(50% - 8px);
+            }
+            .btn-send{
+                background-color: $color-green;
+                border-radius: 10px;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }

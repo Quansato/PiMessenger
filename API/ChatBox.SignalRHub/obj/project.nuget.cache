@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VBWPx6vy4BLPT5lB7UPQGESbXcbX6KyNsdlfjflrOduGyj4JHIIZoQbqplvD0jTRfOIBBqNrzBa7fW7MluWhbw==",
+  "success": true,
+  "projectFilePath": "D:\\AppChat\\API\\ChatBox.SignalRHub\\ChatBox.SignalRHub.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.aspnet.signalr\\2.4.3\\microsoft.aspnet.signalr.2.4.3.nupkg.sha512"
+  ],
+  "logs": []
+}
